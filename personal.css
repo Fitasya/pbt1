@@ -1,5 +1,6 @@
 li {
     list-style: none;
+    text-align: left;
 }
 
 #group1 {
@@ -9,20 +10,29 @@ li {
     font-family: Arial;
 }
 
+
 body {
     background-color: rgb(255, 239, 248);
 }
 
 table, tr, td {
     border: 0.5rem outset pink;
-    
     box-shadow: 0 0 0 2rem rgb(255, 211, 228);
-    font: bold 1rem sans-serif;
     margin: 3rem;
+    font-family: Arial;
     padding: 2rem;
     outline-offset: 0.5rem;
     background-color: rgb(253, 237, 251);
-  }
+}
 
-
-
+button[type=submit], button[type=reset] {
+    background-color: rgb(255, 211, 228);
+    border: none;
+    padding: 10px 52px;
+    box-shadow: 0 0 0 0.2rem rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 4px 20px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 20px;
+}
