@@ -113,22 +113,22 @@ if (isset($_POST['cb12'])) {
             <?php
             if ($rad == 'Massage RM50') {
                 $price = 50;
-                echo "Service Selected: <br>" . $rad . "<br>";
-                echo "Add On: " . $op1 . "<br>" . $op2 . "<br>" . $op3 . "<br>";
+                echo "Service Selected: <br>" . $rad . "<br><br>";
+                echo "Add On: <br>" . $op1 . "<br>" . $op2 . "<br>" . $op3 . "<br>";
                 echo "Total: RM" . calcTotal($rad, $cb1, $cb2, $cb3, $price);
             } else if ($rad == 'Facials RM70') {
                 $price = 70;
-                echo "Service Selected: <br>" . $rad . "<br>";
-                echo "Add On: " . $op4 . "<br>" . $op5 . "<br>" . $op6 . "<br>";
+                echo "Service Selected: <br>" . $rad . "<br><br>";
+                echo "Add On: <br>" . $op4 . "<br>" . $op5 . "<br>" . $op6 . "<br>";
                 echo "Total: RM" .  calcTotal($rad, $cb4, $cb5, $cb6, $price);
             } else if ($rad == 'Waxing & Threading RM40') {
                 $price = 40;
-                echo "Service Selected: <br>" . $rad . "<br>";
-                echo "Add On: " . $op7 . "<br>" . $op8 . "<br>" . $op9 . "<br>";
+                echo "Service Selected: <br>" . $rad . "<br><br>";
+                echo "Add On: <br>" . $op7 . "<br>" . $op8 . "<br>" . $op9 . "<br>";
                 echo "Total: RM" .  calcTotal($rad, $cb7, $cb8, $cb9, $price);
             } else if ($rad == 'Makeup RM60') {
                 $price = 60;
-                echo "Service Selected: " . $rad . "<br>";
+                echo "Service Selected: " . $rad . "<br><br>";
                 echo "Add On: <br>" . $op10 . "<br>" . $op11 . "<br>" . $op12 . "<br>";
                 echo "Total: RM" .  calcTotal($rad, $cb10, $cb11, $cb12, $price);
             }
