@@ -6,6 +6,14 @@ $total = 0;
 $cb1 = '';
 $cb2 = '';
 $cb3 = '';
+if ($rad == '') {
+    echo "<script>
+ alert('You must choose a service');
+ window.location = 'index.php';
+ </script>";
+}
+
+
 if (isset($_POST['cb1'])) {
     $cb1 = $_POST['cb1'];
     $op1 = 'Organic Foot Scrub Rm30';
