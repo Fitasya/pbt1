@@ -4,7 +4,7 @@ li {
 }
 
 #group1 {
-    width: 70%;
+    width: 80%;
     border: 0.5rem outset rgb(250, 0, 42);
     background-color: rgb(233, 0, 89);
     font-family: Arial;
@@ -16,6 +16,7 @@ li {
 
 body {
     background-color: #b10052;
+    padding: 50px;
 }
 
 table, tr, td {
@@ -45,7 +46,7 @@ h1 {
     color: white;
 }
 .papar {
-    width: 70%;
+    width: 74%;
     color: white;
     padding: 50px;
     font-size: 20px;
