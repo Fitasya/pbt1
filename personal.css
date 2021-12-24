@@ -1,0 +1,25 @@
+li {
+    list-style: none;
+}
+
+#group1 {
+    width: 50%;
+    border: 0.5rem outset pink;
+    background-color: rgb(255, 228, 239);
+    font-family: Arial;
+}
+
+body {
+    background-color: rgb(255, 239, 248);
+}
+
+table, tr, td {
+    border: 0.5rem outset pink;
+    
+    box-shadow: 0 0 0 2rem rgb(255, 211, 228);
+    font: bold 1rem sans-serif;
+    margin: 3rem;
+    padding: 2rem;
+    outline-offset: 0.5rem;
+    background-color: rgb(253, 237, 251);
+  }
