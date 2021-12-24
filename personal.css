@@ -5,7 +5,7 @@ li {
 #group1 {
     width: 50%;
     border: 0.5rem outset pink;
-    background-color: rgb(255, 228, 239);
+    background-color: #ffe4ef;
     font-family: Arial;
 }
 
@@ -23,3 +23,6 @@ table, tr, td {
     outline-offset: 0.5rem;
     background-color: rgb(253, 237, 251);
   }
+
+
+

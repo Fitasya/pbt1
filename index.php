@@ -23,7 +23,7 @@
                 treatments in Facials, Massages, Body Treatment, Makeup,
                 Waxing and Hair Threading. Come in and select one of our
                 Spa Packages with our top professional Aestheticians and
-                Massage Therapists. Organic Spa Massage & Skincare is a
+                Massage Therapists. Aromatica Spa Massage & Skincare is a
                 spacious haven of pampering.
             </div>
 
@@ -34,8 +34,10 @@
 
 
     <div>
-
         <center>
+            <h1>
+                Reserve Now!
+            </h1>
             <form id="bookService" method="post" action="result.php">
                 <table>
                     <tr>
