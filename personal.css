@@ -44,3 +44,11 @@ h1 {
     font-family: Arial;
     color: white;
 }
+.papar {
+    width: 70%;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: rgb(233, 0, 89);
+}
