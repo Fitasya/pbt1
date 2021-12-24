@@ -6,13 +6,6 @@ $total = 0;
 $cb1 = '';
 $cb2 = '';
 $cb3 = '';
-if ($rad == '') {
-    echo "<script>
- alert('You must choose a service');
- window.location = 'index.php';
- </script>";
-}
-
 
 if (isset($_POST['cb1'])) {
     $cb1 = $_POST['cb1'];
@@ -139,6 +132,11 @@ if (isset($_POST['cb12'])) {
                 echo "Service Selected: " . $rad . "<br><br>";
                 echo "Add On: <br>" . $op10 . "<br>" . $op11 . "<br>" . $op12 . "<br>";
                 echo "Total: RM" .  calcTotal($rad, $cb10, $cb11, $cb12, $price);
+            } else {
+                echo "<script>
+             alert('You must choose a service');
+             window.location = 'index.php';
+             </script>";
             }
 
             ?>
