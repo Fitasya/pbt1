@@ -103,8 +103,8 @@
                     <tr>
                         <td colspan="6">
                             <center>
-                                <button type="submit">Pay</button>
                                 <button type="reset">Reset</button>
+                                <button type="submit">Reserve</button>
                                 <center>
                         </td>
                     </tr>

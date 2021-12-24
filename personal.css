@@ -4,35 +4,43 @@ li {
 }
 
 #group1 {
-    width: 50%;
-    border: 0.5rem outset pink;
-    background-color: #ffe4ef;
+    width: 70%;
+    border: 0.5rem outset rgb(250, 0, 42);
+    background-color: rgb(233, 0, 89);
     font-family: Arial;
+    color: white;
+    font-size: 20px;
+    padding: 40px 10px;
 }
 
 
 body {
-    background-color: rgb(255, 239, 248);
+    background-color: #b10052;
 }
 
 table, tr, td {
-    border: 0.5rem outset pink;
-    box-shadow: 0 0 0 2rem rgb(255, 211, 228);
+    color: white;
+    border: 0.5rem outset rgb(255, 0, 43);
+    box-shadow: 0 0 0 2rem rgb(233, 0, 89);
     margin: 3rem;
     font-family: Arial;
+    font-size: 20px;
     padding: 2rem;
     outline-offset: 0.5rem;
-    background-color: rgb(253, 237, 251);
+    background-color: rgb(211, 4, 83);
 }
 
 button[type=submit], button[type=reset] {
-    background-color: rgb(255, 211, 228);
-    border: none;
-    padding: 10px 52px;
-    box-shadow: 0 0 0 0.2rem rgb(0, 0, 0);
-    text-decoration: none;
-    margin: 4px 20px;
+    background-color: rgb(233, 0, 89);
+    border: 0.5rem outset rgb(255, 0, 43);
+    padding: 10px 100px;
+    margin: 0px 0px;
+    color: white;
     cursor: pointer;
     font-family: Arial;
     font-size: 20px;
+}
+h1 {
+    font-family: Arial;
+    color: white;
 }
