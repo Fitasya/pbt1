@@ -88,7 +88,7 @@ if (isset($_POST['cb11'])) {
 }
 if (isset($_POST['cb12'])) {
     $cb12 = $_POST['cb12'];
-    $op12 = 'Last & Eyebrow Tint RM35';
+    $op12 = 'Lip Tint RM35';
 } else {
     $cb12 = 0;
     $op12 = '';
@@ -114,30 +114,36 @@ if (isset($_POST['cb12'])) {
             <?php
             if ($rad == 'Massage RM50') {
                 $price = 50;
-                echo "Service Selected: <br>" . $rad . "<br><br>";
-                echo "Add On: <br>" . $op1 . "<br>" . $op2 . "<br>" . $op3 . "<br>";
-                echo "Total: RM" . calcTotal($rad, $cb1, $cb2, $cb3, $price);
-            } else if ($rad == 'Facials RM70') {
-                $price = 70;
-                echo "Service Selected: <br>" . $rad . "<br><br>";
-                echo "Add On: <br>" . $op4 . "<br>" . $op5 . "<br>" . $op6 . "<br>";
-                echo "Total: RM" .  calcTotal($rad, $cb4, $cb5, $cb6, $price);
-            } else if ($rad == 'Waxing & Threading RM40') {
-                $price = 40;
-                echo "Service Selected: <br>" . $rad . "<br><br>";
-                echo "Add On: <br>" . $op7 . "<br>" . $op8 . "<br>" . $op9 . "<br>";
-                echo "Total: RM" .  calcTotal($rad, $cb7, $cb8, $cb9, $price);
-            } else if ($rad == 'Makeup RM60') {
-                $price = 60;
-                echo "Service Selected: " . $rad . "<br><br>";
-                echo "Add On: <br>" . $op10 . "<br>" . $op11 . "<br>" . $op12 . "<br>";
-                echo "Total: RM" .  calcTotal($rad, $cb10, $cb11, $cb12, $price);
-            } else {
-                echo "<script>
-             alert('You must choose a service');
-             window.location = 'index.php';
-             </script>";
-            }
+            ?>
+                Service Selected: <br> <?php echo $rad; ?> <br><br>
+                Add On: <br> <?php echo $op1 ?> <br> <?php echo $op2 ?> <br> <?php echo $op3; ?> <br><br>
+                Total Price: RM <?php echo calcTotal($rad, $cb1, $cb2, $cb3, $price);
+                            } else if ($rad == 'Facials RM70') {
+                                $price = 70;
+                                ?>
+               Service Selected: <br> <?php echo $rad; ?> <br><br>
+                Add On: <br> <?php echo $op4 ?> <br> <?php echo $op5 ?> <br> <?php echo $op6; ?> <br><br>
+                Total Price: RM <?php echo calcTotal($rad, $cb4, $cb5, $cb6, $price);
+                            } else if ($rad == 'Waxing & Threading RM40') {
+                                $price = 40;
+                                ?>
+                Service Selected: <br> <?php echo $rad; ?> <br><br>
+                Add On: <br> <?php echo $op7 ?> <br> <?php echo $op8 ?> <br> <?php echo $op9; ?> <br><br>
+                Total Price: RM <?php echo calcTotal($rad, $cb7, $cb8, $cb9, $price);
+                            } else if ($rad == 'Makeup RM60') {
+                                $price = 60;
+                                ?>
+                Service Selected: <br> <?php echo $rad; ?> <br><br>
+                Add On: <br> <?php echo $op10 ?> <br> <?php echo $op11 ?> <br> <?php echo $op12; ?> <br><br>
+                Total Price: RM <?php echo calcTotal($rad, $cb10, $cb11, $cb12, $price);
+                            } else {
+                                ?>
+                <script>
+                    alert('You must choose a service');
+                    window.location = 'index.php';
+                </script>
+            <?php
+                            }
 
             ?>
 

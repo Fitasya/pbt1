@@ -97,7 +97,7 @@
                             <input type="checkbox" name="cb11" value="20" id="two">
                             <label>Eyebrow Tint RM20</label><br>
                             <input type="checkbox" name="cb12" value="35" id="three">
-                            <label>Last & Eyebrow Tint RM35</label><br>
+                            <label>Lip Tint RM35</label><br>
                         </td>
                     </tr>
                     <tr>
