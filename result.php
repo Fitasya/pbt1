@@ -1,5 +1,4 @@
 <?php
-require 'index.php';
 require 'function.php';
 $rad = $_POST['rad'];
 $total = 0;
