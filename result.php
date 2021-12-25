@@ -9,12 +9,29 @@ require 'function.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="personal.css">
+    <link rel="stylesheet" href="design.css">
     <title>Aromatica Spa</title>
 </head>
 
 <body>
-    <h1>Aromatica Spa Reservation</h1>
+    <fieldset id="group1">
+        <h1>Aromatica Spa</h1>
+        <div>
+            <ul>
+                <li>Aromatica Spa</li>
+                <li>Kangar, Perlis</li>
+                <li>03-2003444</li>
+            </ul>
+            We locally owned and operated Aromatica Spa! Outstanding spa
+            treatments in Facials, Massages, Body Treatment, Makeup,
+            Waxing and Hair Threading. Come in and select one of our
+            Spa Packages with our top professional Aestheticians and
+            Massage Therapists. Aromatica Spa Massage & Skincare is a
+            spacious haven of pampering.
+        </div>
+    </fieldset>
+    <br>
+
     <div class="papar">
         <?php
         if ($rad == 'Massage RM50') {
@@ -50,7 +67,9 @@ require 'function.php';
         <?php
                         }
         ?>
+        <br>
     </div>
+    <a href="index.php" class="button1">Back</a>
 </body>
 
 </html>
