@@ -36,59 +36,59 @@
                 <tr>
                     <td>
                         <input type="radio" name="rad" id="rad1" value="Massage RM50">
-                        Massage RM50 +
+                        <label for="rad1">Massage RM50 +</label><br>
                     </td>
                     <td>
-                        <input type="checkbox" name="cb1" value="30" id="one">
-                        <label>Organic Foot Scrub Rm30</label><br>
-                        <input type="checkbox" name="cb2" value="30" id="two">
-                        <label>Cold Stone Facial Massage RM30</label><br>
-                        <input type="checkbox" name="cb3" value="30" id="three">
-                        <label>Scalp Massage with Organic Apricot Oil RM30</label><br>
+                        <input type="checkbox" name="cb1" value="30" id="cb1">
+                        <label for="cb1">Organic Foot Scrub Rm30</label><br>
+                        <input type="checkbox" name="cb2" value="30" id="cb2">
+                        <label for="cb2">Cold Stone Facial Massage RM30</label><br>
+                        <input type="checkbox" name="cb3" value="30" id="cb3">
+                        <label for="cb3">Scalp Massage with Organic Apricot Oil RM30</label><br>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <input type="radio" name="rad" id="rad2" value="Facials RM70">
-                        Facials RM70 +
+                        <label for="rad2">Facials RM70 +</label><br>
 
                     </td>
                     <td>
-                        <input type="checkbox" name="cb4" value="40" id="one">
-                        <label>Lip & Eye Treatment Rm40</label><br>
-                        <input type="checkbox" name="cb5" value="20" id="two">
-                        <label>Lash Tinting RM20</label><br>
-                        <input type="checkbox" name="cb6" value="20" id="three">
-                        <label>Eyebrow Tinting RM20</label><br>
+                        <input type="checkbox" name="cb4" value="40" id="cb4">
+                        <label for="cb4">Lip & Eye Treatment Rm40</label><br>
+                        <input type="checkbox" name="cb5" value="20" id="cb5">
+                        <label for="cb5">Lash Tinting RM20</label><br>
+                        <input type="checkbox" name="cb6" value="20" id="cb6">
+                        <label for="cb6">Eyebrow Tinting RM20</label><br>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <input type="radio" name="rad" id="rad3" value="Waxing & Threading RM40">
-                        Waxing & Threading RM40 +
+                        <label for="rad3">Waxing & Threading RM40 +</label><br>
 
                     </td>
                     <td>
-                        <input type="checkbox" name="cb7" value="50" id="one">
-                        <label>Arm RM50</label><br>
-                        <input type="checkbox" name="cb8" value="100" id="two">
-                        <label>Back RM100</label><br>
-                        <input type="checkbox" name="cb9" value="60" id="three">
-                        <label>Legs RM60</label><br>
+                        <input type="checkbox" name="cb7" value="50" id="cb7">
+                        <label for="cb7">Arm RM50</label><br>
+                        <input type="checkbox" name="cb8" value="100" id="cb8">
+                        <label for="cb8">Back RM100</label><br>
+                        <input type="checkbox" name="cb9" value="60" id="cb9">
+                        <label for="cb9">Legs RM60</label><br>
                     </td>
                 <tr>
                     <td>
                         <input type="radio" name="rad" id="rad4" value="Makeup RM60">
-                        Makeup RM60 +
+                        <label for="rad4"> Makeup RM60 +</label><br>
 
                     </td>
                     <td>
-                        <input type="checkbox" name="cb10" value="20" id="one">
-                        <label>Lash Tint Rm20</label><br>
-                        <input type="checkbox" name="cb11" value="20" id="two">
-                        <label>Eyebrow Tint RM20</label><br>
-                        <input type="checkbox" name="cb12" value="35" id="three">
-                        <label>Lip Tint RM35</label><br>
+                        <input type="checkbox" name="cb10" value="20" id="cb10">
+                        <label for="cb10">Lash Tint Rm20</label><br>
+                        <input type="checkbox" name="cb11" value="20" id="cb11">
+                        <label for="cb11">Eyebrow Tint RM20</label><br>
+                        <input type="checkbox" name="cb12" value="35" id="cb12">
+                        <label for="cb12">Lip Tint RM35</label><br>
                     </td>
                 </tr>
                 <tr>
