@@ -7,29 +7,29 @@ li {
     margin-left: 10%;
     text-align: center;
     width: 80%;
-    border: 0.5rem outset rgb(250, 0, 42);
-    background-color: rgb(233, 0, 89);
+    background-color: rgb(231, 160, 7);
+    border: 0.5rem outset rgb(177, 162, 162);
     font-family: Arial;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     padding: 40px 10px;
 }
 
 body {
-    background-color: #b10052;
+    background-color: #e4e4e4;
     padding: 50px;
 }
 
 table, tr, td {
     color: white;
-    border: 0.5rem outset rgb(255, 0, 43);
-    box-shadow: 0 0 0 2rem rgb(233, 0, 89);
+    border: 0.5rem outset rgb(177, 162, 162);
+    box-shadow: 0 0 0 2rem rgb(233, 159, 0);
     margin: 40px 13.5%;
     font-family: Arial;
     font-size: 20px;
     padding: 3rem;
     outline-offset: 0.5rem;
-    background-color: rgb(211, 4, 83);
+    background-color: rgb(167, 114, 0);
 }
 
 table.center {
@@ -38,11 +38,11 @@ table.center {
 }
 
 button[type=submit], button[type=reset] {
-    background-color: rgb(255, 0, 98);
-    border: 0.5rem outset rgb(255, 0, 43);
+    background-color: rgb(231, 160, 7);
+    border: 0.5rem outset rgb(177, 162, 162);
     padding: 10px 100px;
     margin-left: 10%;
-    color: white;
+    color: black;
     cursor: pointer;
     font-family: Arial;
     font-size: 20px;
@@ -50,8 +50,8 @@ button[type=submit], button[type=reset] {
 
 .button1 {
     text-decoration: none;
-    background-color: rgb(255, 0, 98);
-    border: 0.5rem outset rgb(255, 0, 43);
+    background-color: rgb(231, 160, 7);
+    border: 0.5rem outset rgb(177, 162, 162);
     padding: 10px 100px;
     margin-left: 40%;
     color: white;
@@ -64,7 +64,7 @@ button[type=submit], button[type=reset] {
 h1 {
     text-align: center;
     font-family: Arial;
-    color: white;
+    color: black;
 }
 
 .papar {
@@ -75,5 +75,5 @@ h1 {
     padding: 50px;
     font-size: 20px;
     font-family: Arial;
-    background-color: rgb(233, 0, 89);
+    background-color: rgb(167, 114, 0);
 }
